@@ -23,7 +23,7 @@ function myFunction(){
 
   			for(i=0;i<img.length;i++){
 		 	img[i].style.background="none";
-		 	img[i].setAttribute("src","img/"+res[i]+".jpg");
+		 	img[i].setAttribute("src",res[i]+".jpg");
 		 	img[i].setAttribute("class",res[i]);
 		 }
 
@@ -37,7 +37,7 @@ function myFunction(){
 
   			for(i=0;i<img.length;i++){
 		 	img[i].style.background="none";
-		 	img[i].setAttribute("src","img/"+res[i]+".jpg");
+		 	img[i].setAttribute("src",res[i]+".jpg");
 		 	img[i].setAttribute("class",res[i]);
 		 }
 
@@ -51,7 +51,7 @@ function myFunction(){
 
   			for(i=0;i<img.length;i++){
 		 	img[i].style.background="none";
-		 	img[i].setAttribute("src","img/"+res[i]+".jpg");
+		 	img[i].setAttribute("src",res[i]+".jpg");
 		 	img[i].setAttribute("class",res[i]);
 		 }
 
@@ -103,7 +103,7 @@ function f(elem) {
 	function k(){ //finish
 		 for(i=0;i<img.length;i++){ //sa amen angam tarmacnum e nkarneri canky
 		 	img[i].style.background="none";
-		 	img[i].setAttribute("src","img/"+res[i]+".jpg");
+		 	img[i].setAttribute("src",res[i]+".jpg");
 		 	img[i].setAttribute("class",res[i]);
 		 	img[i].style.opacity=1;
 		 }
