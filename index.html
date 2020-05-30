@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="border" id="bord">
+		<div class="header">
+			<h2>Նշիր համապատասխան բառը</h2>
+			<h1 id="ques">apple</h1>
+			<select id="mySelect" onchange="myFunction()">
+				<option>Fruits</option>
+				<option>Animals</option>
+				<option>Cities</option>
+			</select>
+		</div>
+		<div class="score">
+			<h3>Հարց: <span id="num">1</span>/<span id="quent">6</span></h3>
+			<h3>Հաշիվը: <span id="scr">0</span></h3>
+		</div>
+		<div class="option">
+			<div>
+				<img src="img/apple.jpg" onclick="f(this)"  class="apple">
+			</div>
+			<div>
+				<img src="img/orange.jpg" onclick="f(this)" class="orange">
+			</div>
+			<div>
+				<img src="img/mango.jpg" onclick="f(this)" class="mango">
+			</div>
+			<div>
+				<img src="img/kiwi.jpg" onclick="f(this)" class="kiwi">
+			</div>
+			
+		</div>
+	</div>
+		<div id="neww">
+			<h5 id="txt"></h5>
+			<button onclick="replay()">Սկսել նոր խաղ</button>
+		</div>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
